@@ -78,7 +78,7 @@ function App() {
       <div className='app__left'>
         <div className='app__header'>
           <h1>Covid-19 Tracker</h1>
-          <img src={logo} alt='logo' className='app__logo'/>
+          <img src={logo} alt='logo' className='app__logo' />
           <FormControl className='app__dropdown'>
             <Select
               variant='outlined'
@@ -101,7 +101,7 @@ function App() {
             isRed
             active={casesType === 'cases'}
             onClick={(e) => setCasesType('cases')}
-            title='CoronaVirus Cases'
+            title='Corona Virus Cases'
             cases={prettyPrintStat(countryInfo.todayCases)}
             total={countryInfo.cases}
           />
