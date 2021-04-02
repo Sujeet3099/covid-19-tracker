@@ -12,6 +12,7 @@ import Map from './Map';
 import Table from './Table';
 import { sortData, prettyPrintStat } from './utils';
 import LineGraph from './LineGraph';
+import logo from './download.svg';
 
 function App() {
   const [countries, setCounteries] = useState([]);
@@ -44,7 +45,10 @@ function App() {
           setMapCenter({ lat: 22.80746, lng: 70.4796 });
         } else {
           // setMapCenter([data.countryInfo.lat, data.countryInfo.long]);
-          setMapCenter({ lat: data.countryInfo.lat, lng: data.countryInfo.long });
+          setMapCenter({
+            lat: data.countryInfo.lat,
+            lng: data.countryInfo.long,
+          });
           setMapZoom(4);
           // console.log(mapCenter);
           // console.log(mapZoom);
@@ -74,6 +78,7 @@ function App() {
       <div className='app__left'>
         <div className='app__header'>
           <h1>Covid-19 Tracker</h1>
+          <img src={logo} alt='logo' />
           <FormControl className='app__dropdown'>
             <Select
               variant='outlined'
