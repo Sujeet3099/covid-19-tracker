@@ -16,7 +16,9 @@ body {
 .app__dropdown {
   background-color: white;
 }
-
+.app__logo {
+  width: 20vw;
+}
 .app__header {
   display: flex;
   align-items: center;
@@ -55,5 +57,10 @@ body {
 @media (max-width: 990px) {
   .app {
     flex-direction: column;
+  }
+}
+@media (max-width: 400px) {
+  .app__logo {
+    display: none;
   }
 }
