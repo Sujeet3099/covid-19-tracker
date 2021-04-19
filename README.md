@@ -1,3 +1,6 @@
+# VISIT THE SITE HERE 
+<a href='https://covid-19-tracker-sujeet.netlify.app/'>https://covid-19-tracker-sujeet.netlify.app/</a>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +71,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+<img src='Screenshot (150).png' alt='homescreen'> <br/>
+<img src='Screenshot (151).png' alt='homescreen'> <br/>
+<img src='Screenshot (152).png' alt='homescreen'> <br/>
+<img src='Screenshot (153).png' alt='homescreen'> <br/>
+<img src='Screenshot (154).png' alt='homescreen'> <br/>
+<img src='Screenshot (155).png' alt='homescreen'> <br/>
